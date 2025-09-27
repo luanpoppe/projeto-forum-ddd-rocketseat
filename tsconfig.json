@@ -11,8 +11,12 @@
     "target": "es2023",
     // For nodejs:
     // "lib": ["esnext"],
-    "types": ["node"],
     // and npm install -D @types/node
+    "types": ["node", "vitest/globals"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
 
     // Other Outputs
     "sourceMap": true,
