@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 
-export class UniqueentityID {
+export class UniqueEntityID {
   toString() {
     return this.value;
   }
